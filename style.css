@@ -49,7 +49,7 @@ html,body{
     transition: all 0.5s;
     cursor: pointer;
 }
-.btn:hover:not[disabled]{
+.btn:hover:not([disabled]){
     background-color: rgb(21, 21, 21);
     color: white;
 }
@@ -75,4 +75,3 @@ html,body{
 .incorrect{
     background-color: rgb(179, 48, 48);
 }
-
